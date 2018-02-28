@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV VERSION 2.4.4
+ENV VERSION 2.4.5
 
 RUN apt-get update && apt-get install -y wget
 
