@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV VERSION 2.5.0
+ENV VERSION 2.6.3
 
 RUN apt-get update && apt-get install -y wget
 
