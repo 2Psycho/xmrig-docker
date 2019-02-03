@@ -4,7 +4,7 @@ ENV VERSION 2.10.0
 
 RUN apt-get update && apt-get install -y wget
 
-RUN wget https://github.com/xmrig/xmrig/releases/download/v$VERSION/xmrig-$VERSION-xenial-amd64.tar.gz
+RUN wget https://github.com/xmrig/xmrig/releases/download/v$VERSION/xmrig-$VERSION-xenial-x64.tar.gz
 
 RUN tar -xvzf xmrig-$VERSION-xenial-amd64.tar.gz
 
