@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV VERSION 2.8.3
+ENV VERSION 2.10.0
 
 RUN apt-get update && apt-get install -y wget
 
