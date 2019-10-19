@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV VERSION 4.3.1-beta
+ENV VERSION 3.2.0
 
 RUN apt-get update && apt-get install -y wget
 
