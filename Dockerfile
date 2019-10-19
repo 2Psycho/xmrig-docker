@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV VERSION 3.2.0
+ENV VERSION 2.14.4
 
 RUN apt-get update && apt-get install -y wget
 
