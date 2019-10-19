@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV VERSION 2.14.4
+ENV VERSION 4.3.1-beta
 
 RUN apt-get update && apt-get install -y wget
 
