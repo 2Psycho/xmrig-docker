@@ -15,4 +15,4 @@ ENV THREADS 4
 
 WORKDIR xmrig-$VERSION/
 
-CMD ./xmrig -o $POOL -u $USERNAME -p x -k --donate-level=$DONATE -t $THREADS
+CMD ./xmrig -o $POOL -u $USERNAME -p x -k --donate-level=$DONATE -t $THREADS --coin monero 
